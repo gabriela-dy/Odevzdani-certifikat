@@ -1,0 +1,22 @@
+# https://github.com/gabriela-dy/Git111
+
+# Zadání 1
+git commit -m ‘Initial commit‘
+git log
+
+# Zadání 2
+new-item -Name Uran.txt
+git add Uran.txt
+git commit -m ‘Uran.txt‘
+
+# Zadání 3
+git add --all
+git commit -m ‘Update first test‘
+
+# Zadání 4
+git add --all && git commit -m ‘Update integration tests‘
+git log
+
+# Zadání 5
+new-item -Name Uran.txt
+git add --all && git commit -m ‘Add Uran file‘

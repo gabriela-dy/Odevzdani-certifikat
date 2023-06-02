@@ -1,0 +1,29 @@
+# Zadání 1
+git branch ‘Test-Gabi‘
+git checkout ‘Test-Gabi‘
+new-item -Name Neptun.txt
+git add --all && git commit -m ‘comit vedlejsí vetev‘
+git checkout ‘main‘
+
+# Zadání 2
+git branch ‘feature/branch-ukol‘ && git checkout ‘feature/branch-ukol‘
+new-item -Name Pluto.txt && git add --all && git commit --all
+
+# Zadání 3
+git checkout ‘main‘
+new-item -Name Europa.txt && git add --all
+git checkout ‘feature/europa-file‘
+git commit --all
+git checkout ‘main‘
+
+# Zadání 4
+git checkout ‘feature/europa-file‘
+git branch ‘branch-ukol‘
+
+# Zadání 5
+git branch branch-ukol
+
+# Zadání 6
+git branch ‘test-feature‘
+git branch -d ‘test-feature‘
+git branch

@@ -1,0 +1,17 @@
+# Odkaz na veřejný repozitář
+
+# Zadání 1
+git config --global user.name "Gabka"
+gig config --global user.email "Gabriela.dyworova@gmail.com"
+git config --list
+
+# Zadání 2
+git config --locat --list
+
+# Zadání 3
+git config user.name ‘Gabka‘
+git config user.email ‘Gabriela.honkova@gmail.com‘
+git config --list
+git branch ‘new-colllaborator‘
+git checkout ‘new-colllaborator‘
+new-item -Name ‘Titan.txt‘ && git add --all && git commit -m ‘pridani-titanu‘

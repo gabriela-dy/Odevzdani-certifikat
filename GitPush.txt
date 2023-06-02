@@ -1,0 +1,20 @@
+# https://github.com/gabriela-dy/Git111
+
+# Zadání 1
+git push
+git push --set-upstream origin feature/branch-ukol
+git push --set-upstream origin feature/europa-file
+git checkout ‘feature/branch-ukol‘
+
+# Zadání 2
+git checkout ‘main‘
+git branch ‘feature/bug-fix‘
+git add ‘Jupiter.txt‘
+git commit -m ‘uprava‘
+
+# Zadání 3
+git branch ‘feature/bug-fix‘
+git add ‘Saturn.txt‘
+git commit -m ‘uprava‘
+git add ‘Uran.txt‘
+git commit -m ‘uprava‘

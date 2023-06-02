@@ -1,0 +1,13 @@
+# https://github.com/gabriela-dy/Git111
+
+# Zadání 1
+cd klient2
+new-item -name ‘ganymed.txt‘ && git add --all && git commit -m ‘pridani-souboru‘
+git push
+
+
+# Zadání 2
+git clone git@github.com:gabriela-d/git111.git
+
+# Zadání 3
+git pull

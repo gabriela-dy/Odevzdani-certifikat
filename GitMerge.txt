@@ -1,0 +1,29 @@
+# https://github.com/gabriela-dy/Git111
+
+# Zadání 1
+git branch -a
+git merge branch-ukol
+git merge feature/branch-ukol
+git merge feature/bug-fix
+git merge feature/europa-file
+git push
+git push origin --delete branch-ukol
+git push origin --delete feature/branch-ukol
+git push origin --delete feature/bug-fix
+git push origin --delete feature/europa-file
+
+# Zadání 2
+git checkout -b ‘feature/new-moon-files‘
+new-item -Name ‘Charon.txt‘ && git add --all
+git commit -m ‘pridani-dokumentu‘
+new-item -Name ‘Měsíc.txt‘ && git add --all
+git commit -m ‘pridani-dokumentu‘
+git add --all
+git commit -m ‘zmena-dokumentu‘
+git checkout ‘main‘
+git merge feature/new-moon-files
+git push
+git push origin -d „feature/new-moon-files“. 
+
+# Zadání 3
+git clone git@github.com:gabriela-dy/Git111.git

@@ -1,0 +1,8 @@
+# Zadání 1
+git status
+
+# Zadání 2
+git status
+
+# Zadání 3
+git status branch

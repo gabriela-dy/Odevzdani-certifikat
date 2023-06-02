@@ -1,0 +1,9 @@
+# Zadání 1
+git log
+
+# Zadání 2
+git checkout ‘branch-ukol‘
+git log
+
+# Zadání 3
+git log --follow -- Jupiter.txt

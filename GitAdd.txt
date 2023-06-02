@@ -1,0 +1,17 @@
+# https://github.com/gabriela-dy/Git111
+
+# Zadání 1
+new-item -Name Merkur.txt
+git add --all
+git status
+
+# Zadání 2
+new-item -Name Venuše.txt
+new-item -Name Zěmě.txt
+new-item -Name Mars.txt
+git add --all
+
+# Zadání 3
+new-item -Name Jupiter.txt
+new-item -Name Saturn.txt
+git add Saturn
